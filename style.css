@@ -1,0 +1,18 @@
+body{
+    background-image:  url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+    background-image: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.navbar {
+color: black;
+    display: block;
+    /* margin: 8px 22px 8px 22px; */
+    /* overflow: hidden; */
+    /* width: 100%; */ 
+width: 100%;
+    /* notice below: */
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100px;
+}
+
