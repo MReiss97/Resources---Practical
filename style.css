@@ -1,9 +1,24 @@
-body{
-    background-image:  url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
-    background-image: no-repeat;
+. {
+   
     background-attachment: fixed;
-    background-size: 100%;
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+height: 100%;
+width: 100%;
 }
+body, html {
+  background-image:  url('/assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
+    height: 100%;
+    margin: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  background-repeat: no-repeat;
+height: 100%;
+width: 100%;
+    }
+
 .navbar {
 color: black;
     display: block;
@@ -16,3 +31,28 @@ width: 100%;
     height: 100px;
 }
 
+.navbar-brand {
+
+}
+
+.collapse{
+  
+}
+.txt1{
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-nav > .active > a {
+  color: #10C9C3;
+}
+
+.nav-item a:hover{
+  color: rgb(213, 213, 213);
+background-color: black;
+}
+.nav-link a {
+  text-decoration: none !important;
+}
+.nav-link li:hover a {
+  color: white;
+}
