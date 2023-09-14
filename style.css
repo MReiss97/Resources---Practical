@@ -8,7 +8,7 @@ height: 100%;
 width: 100%;
 }
 body, html {
-  background-image:  url('/assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
+  background-image:  url('assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
     height: 100%;
     margin: 0;
     background-attachment: fixed;
