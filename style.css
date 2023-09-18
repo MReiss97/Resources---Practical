@@ -1,3 +1,4 @@
+
 body,
 html {
   
@@ -5,23 +6,33 @@ html {
   width: 100%;
 }
 
-container-fluid{
-  padding-right: var(--bs-gutter-x, 0rem) !important;
-  padding-left: var(--bs-gutter-x, 0rem) !important;
+.container-fluid{
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
 }
 
-.bgjuan {
+.bgcolor1 {
   background-image: url('/assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 height: 100%;
 }
+.bgcolor2{
+  background-color: #10C9C3;
+}
+{
+  height: 350px;
+}
 .row {
   --bs-gutter-x: 0rem !important;
 }
 #divheight{
   height: 1000px;
+}
+
+#height1{
+  min-height: 350px;
 }
 .txt1 {
   font-size: 50px;
@@ -43,10 +54,123 @@ height: 100%;
   font-size: 16px;
 }
 
+.txt5{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-top: 230px;
+  margin-left: 205px;
+}
+
+.txt6{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 205px;
+}
+
+.txt7{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin-left: 120px;
+}
+
+.txt8{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+margin-top: 150px;
+}
+
+.txt9{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.txt10{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.txt11{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.txt12{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+#height2{
+  height: 450px;
+}
 .img1{
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.img3{
+  height: 450px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg5{
+  background-color: #10C9C3;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 1;
+  position: absolute;
+  left: 62.5%;
+ 
+  transform: translate(-50%, -800%);
+  -ms-transform: translate(-50%, -50%);
+  display: block;
+}
+
+.hovericon{
+display: block !important;
+opacity: 1 !important;
+}
+
+.image{
+  height: 450px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.hover1:hover .image {
+  -webkit-filter: brightness(20%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.hover1:hover .middle {
+  opacity: 1;
+}
+
+
+
+.img2{
+  margin-top: 170px;
+  margin-left: 250px !important;
+  height: 60px;
+  width: 70px;
 }
 
 .navbar a {
@@ -229,4 +353,14 @@ input[type="submit"]:hover {}
 .margin1{
   margin-top: 100px !important;
   margin-bottom: 100px !important;
+}
+
+.progress{
+  height: 0.4rem !important;
+  width: 70%;
+  
+}
+.progress-bar{
+  background-color: #10C9C3 !important;
+
 }
