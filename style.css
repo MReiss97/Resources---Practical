@@ -34,75 +34,7 @@ height: 100%;
 #height1{
   min-height: 350px;
 }
-.txt1 {
-  font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
-}
 
-.txt2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-}
-
-.txt3{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-}
-
-.txt4{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-}
-
-.txt5{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  margin-top: 230px;
-  margin-left: 205px;
-}
-
-.txt6{
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: bold;
-  margin-left: 205px;
-}
-
-.txt7{
-  font-family: 'Nunito Sans', sans-serif;
-  font-weight: bold;
-  margin-left: 120px;
-}
-
-.txt8{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 25px;
-margin-top: 150px;
-}
-
-.txt9{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.txt10{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.txt11{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.txt12{
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-
-}
 
 #height2{
   height: 450px;
@@ -168,7 +100,7 @@ opacity: 1 !important;
 
 .img2{
   margin-top: 170px;
-  margin-left: 250px !important;
+  margin-left: 200px !important;
   height: 60px;
   width: 70px;
 }
@@ -343,7 +275,22 @@ input[type="submit"]:hover {}
 }
 
 .hero-text {
-  transform: translate(0, -30%);
+  transform: translate(0, -30%);  
+  font-family: 'Montserrat', sans-serif;
+}
+
+.txt1{
+  font-size: 50px;
+}
+
+.txt3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.txt5{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .active{
@@ -353,6 +300,7 @@ input[type="submit"]:hover {}
 .margin1{
   margin-top: 100px !important;
   margin-bottom: 100px !important;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .progress{
