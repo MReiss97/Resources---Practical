@@ -293,6 +293,11 @@ input[type="submit"]:hover {}
   font-family: 'Montserrat', sans-serif;
 }
 
+.txt6{
+  font-size: 18px;
+  font-family: 'Nunito sans', sans-serif;
+}
+
 .active{
   color: #10C9C3 !important;
 }
