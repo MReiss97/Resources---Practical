@@ -1,4 +1,3 @@
-
 body,
 html {
   
@@ -310,6 +309,13 @@ input[type="submit"]:hover {}
   color: white;
 }
 
+
+.txt9{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 50px;
+}
+
 .active{
   color: #10C9C3 !important;
 }
@@ -328,4 +334,9 @@ input[type="submit"]:hover {}
 .progress-bar{
   background-color: #10C9C3 !important;
 
+}
+
+
+#height3{
+  height: 100px;
 }
