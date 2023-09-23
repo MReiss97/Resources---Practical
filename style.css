@@ -256,7 +256,6 @@ input[type="submit"]:hover {}
   height: 60px;
   color: #ffffff;
   padding: 5px 10px;
-  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
@@ -264,7 +263,7 @@ input[type="submit"]:hover {}
   outline: none;
   border: 2px solid #10C9C3;
   background: #10C9C3;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
